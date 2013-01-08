@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.WindowsAPICodePack.Shell.lib</id>
+    <version>1.1.0</version>
+    <authors>han6man</authors>
+    <owners>han6man</owners>
+    <licenseUrl>http://archive.msdn.microsoft.com/WindowsAPICodePack/Project/License.aspx</licenseUrl>
+    <projectUrl>http://archive.msdn.microsoft.com/WindowsAPICodePack/</projectUrl>
+    <iconUrl>http://code2code.info/image.axd?picture=2009/10/VS2010Beta2.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Windows� API Code Pack for Microsoft� .NET Framework provides a source code library that can be used to access some features of Windows 7 and Windows Vista from managed code.</description>
+    <releaseNotes>These Windows features are not available to developers today in the .NET Framework.</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags>Windows API Code Pack WindowsAPICodePack</tags>
+    <dependencies>
+      <dependency id="Microsoft.WindowsAPICodePack.lib" version="1.1" />
+    </dependencies>
+    <references>
+      <reference file="Microsoft.WindowsAPICodePack.Shell.dll" />
+    </references>
+  </metadata>
+</package>
